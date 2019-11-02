@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://www.dafont.com/theme.php?cat=103');
+:root{
+    --light: #ffffff;
+    --dark: #000000;
+    --loveclr: #F42213;
+    --toplightgrey: #efefef;
+    --semilight: #dfe1e5;
+    --grey: #afafaf;
+    --darkgrey: #333333;
+    --light-semilight: #C9F1FF;
+    --girlclr: #FF81D6;
+    --babyclr: #FFE3EB;
+}
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+body{
+margin: 0; 
+padding: 0;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 2.5;
+font-weight: bold;
+position: relative;
+color: var(--light);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.header1{
+background-color: var(--darkgrey);
+color: var(--light);
+margin: 0;
+padding-top: 1em;
+padding-bottom: 1em;
+padding-left: -6em;
+width: 100%;
+text-align: center;
+position: fixed;
+z-index: 100;
+top: 0%;
+}
+.trav-j{
+display: inline;
+text-align: center;
+font-size: 2em;
+font-weight: bold;
+}
+h2{
+font-size: 3em;
+font-weight: bold;
+font-family: Herculanum; 
+}
+a{
+color: var(--light); 
+text-decoration: none; 
+}
+.city{
+margin: 0;
+padding: 0;
+background-color: #FF81D6;
+background-size: cover;
+position: relative;
+max-width: 100%;
+overflow: hidden;
+}
+.city-name{
+margin: 0;
+padding: 0;
+position: absolute;
+max-width: 100%;
+position: absolute;
+top: 41%;
+left: 21%; 
+}
+.osaka a{
+padding-left: 0.5em;  
+}
+
+.lagos a{
+padding-left: 0.5em;  
+}
+a:hover{
+background-color:var(--light);
+color: var(--dark);
+}
+.gallery{
+    margin: 0;
+}
+.gallery img{
+    z-index: 10;
+overflow: hidden;
+}
+.helsinki
+{
+opacity:0.7;
+transition: transform .2s ease-in-out;
+}
+
+.helsinki:hover
+{
+opacity:1; 
+transition: opacity .2s ease-in-out;
+}
